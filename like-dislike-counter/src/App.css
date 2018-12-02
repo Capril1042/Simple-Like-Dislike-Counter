@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.like-button, .dislike-button  {
+  font-size:25px;
+  background-color: whitesmoke;
+  margin:5px;
+}
+
+.like, .dislike {
+  color: blue;  
+ }

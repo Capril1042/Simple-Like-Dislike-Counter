@@ -60,11 +60,11 @@ class Counter extends Component {
    
     render(){
         let like =this.state.liked ? 'like like-button' : 'like-button';
-        let dislike =this.state.disked ? 'dislike dislike-button' :'dislike-button';
+        let dislike =this.state.disliked ? 'dislike dislike-button' :'dislike-button';
         return(
             <div>
             <button onClick={this.handleLike} className={like}> Like | <span>{this.state.likeCount}</span></button>
-            <button onClick={this.handleDislike} className={dislike} >Dislke | <span> {this.state.dislikeCount} </span> </button>
+            <button onClick={this.handleDislike} className={dislike} >Dislike | <span> {this.state.dislikeCount} </span> </button>
             </div>
         );
     }
